@@ -7,7 +7,7 @@ For normal user-level access:
 
     ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAlurs0x3dOQLQIw7v0NarCYX/leAsQIQkKD4Ev16K4b9iyy5bAuCiX3t4H8ph5vld0vk0/VCPP/oXIYUm/YhuYjdIqMDHD+BG7H49rUifhlko8W0ykGfEQV/L/2TfrYgQs0uxLSL1eQPQQQOco1rTRDVolaO+XAfhWYIgBq7S4Uc= josh
 
-High-security Eliptic Curve 25519 DSA key for root-level access:
+High-security Elliptic Curve 25519 DSA key for root-level access:
 
     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL9m5mLFkboxzF/8eS3WrZKJ6D/xJNW8Fx1HyxcGiXQN josh
 
