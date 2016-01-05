@@ -1,12 +1,16 @@
 sshkeys
 =======
 
-My public ssh keys, these are in the format for use in `~/.ssh/authorized_keys`
+My public ssh keys, these are formatted for use in `~/.ssh/authorized_keys`
 
 For normal user-level access:
 
     ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAlurs0x3dOQLQIw7v0NarCYX/leAsQIQkKD4Ev16K4b9iyy5bAuCiX3t4H8ph5vld0vk0/VCPP/oXIYUm/YhuYjdIqMDHD+BG7H49rUifhlko8W0ykGfEQV/L/2TfrYgQs0uxLSL1eQPQQQOco1rTRDVolaO+XAfhWYIgBq7S4Uc= josh
 
-High-security key for root-level access:
+High-security Eliptic Curve 25519 DSA key for root-level access:
 
-    ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAkOvCvYdUeb6Jad+urA+6Zvu1DN80amC9X0nQRAG9b9oeIZWyIKELxcEbep4I7zzuqNsFWZOyxGdG4kSeDCwsqmNhoKeCrvuEKaWz/4VW6BTzcOVl3QMd8mfKxJIT0RKwGH6GgAl3SHssYkLW5FnDg8ESdWLnjRDPeNGji/PhpH8= joshroot
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL9m5mLFkboxzF/8eS3WrZKJ6D/xJNW8Fx1HyxcGiXQN josh
+
+High-security 2048-bit RSA key for root-level access on systems that don't support ECC keys:
+
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCtufFaHKW6C5Kfoa3D7FGtbOIbse4bK11ssBXCZXkJzLmAg7NHu3UdsTJ1aLnIi6pxgQfKwSHPXWgUlzHYzsmA3/4UsARsemepNEdrpCq/iJtMDFTHAqulepE13uYat67mo9PpW1rUlmCxRcm5PW4yrRn1WJDamQEnyH4rFeA2a1hq0lvqEDRLY2Koc79uBZdBFMOmvOqEH3tYkTKBdOZq7/SprxKv6spAJT84KkVB1pgpSmndS/Gsflb+yDg/fcWr9zDpILKjl6LMj4xwS270dtjY+ZpeZJeOMqlBdhMMhD4ZdeyaboDSyAJsAEeo2MX4jHzbtcKJNQKdZhxnnfD2woSiCpa0evQKdYM7BHNjjYKxU8fIv9nhJMKboAzYU9t3aAENehWQwmwaJkWh4kcE1TsHiXzxQq36OovEtllY+aczeAypsDkbUq2/9wctUY+JSLPHr0y795SEOsv0aDeI/oXUof+32KGnB3U2DUIbiDxOi2kqIHfr6uoNYRUR1ZxPe8jMjuajsrl1adAzSoCBWHw8qrDhYub5iB5rz5Gjvi174hZXr0zVSB0lAKLmqWEmvTo+48UHV+hvSqRb3GuuJL0CSfyNo3LfVIkqJIcRbhfKO8+0nupmJPF0l+TeqIpblXfgzNxEQij44dsDtNuFBBp9ZaqYT7TOs2L+mnQKVQ== josh
